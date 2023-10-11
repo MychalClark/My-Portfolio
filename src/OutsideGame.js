@@ -137,7 +137,10 @@ function OutsideGame({
             <group
               className="court"
               onClick={() => {
-                window.open("https://example.com", "_blank");
+                window.open(
+                  "https://github.com/MychalClark/My-Portfolio",
+                  "_blank"
+                );
               }}
             >
               <CourtModel />

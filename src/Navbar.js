@@ -86,7 +86,7 @@ function Navbar({
 
           <a
             className="nav-link text-white"
-            href="https://www.google.com"
+            href="https://github.com/MychalClark/My-Portfolio"
             rel="noreferrer"
             target="_blank"
           >
