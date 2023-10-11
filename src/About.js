@@ -1,13 +1,10 @@
 import "./css/about.css";
-import Spline from "@splinetool/react-spline";
+
 import "./css/index.css";
 
 function About() {
   return (
     <div className="about">
-      <div className="ants">
-        <Spline scene="https://prod.spline.design/emIVRXp0RtJGueQy/scene.splinecode" />
-      </div>
       <div className="container aboutContainer">
         <div className="row  d-flex justify-content-center text-center">
           <div className="col-md-12 wantedPoster">
