@@ -1,4 +1,3 @@
-import * as THREE from "three";
 import { Environment, useEnvironment } from "@react-three/drei";
 function OutsideLighting() {
   const envMap = useEnvironment({ files: "/models/background.hdr" });
