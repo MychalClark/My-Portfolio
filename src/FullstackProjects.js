@@ -1,5 +1,4 @@
 import "./css/projects.css";
-import { useEffect } from "react";
 import { useState } from "react";
 import "./css/overlayTopic.css";
 import React from "react";

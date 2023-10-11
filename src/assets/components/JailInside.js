@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 import { useState } from "react";
-import { useFrame } from "react-three-fiber";
+import { useFrame } from "@react-three/fiber";
 
 export function JailInside({ props, openAbout, isMusicPlaying }) {
   const group = useRef();
