@@ -1,0 +1,8 @@
+.gameView {
+  display: flex;
+}
+
+.gameSize100 {
+  width: 100%;
+  height: 100vh;
+}

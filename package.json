@@ -1,0 +1,59 @@
+{
+  "name": "mych-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-three/drei": "^9.68.3",
+    "@react-three/fiber": "^8.13.0",
+    "@react-three/postprocessing": "^2.11.4",
+    "@splinetool/loader": "^0.9.334",
+    "@splinetool/r3f-spline": "^1.0.2",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.334",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/three": "^0.152.0",
+    "bootstrap": "^5.2.3",
+    "gsap": "^3.11.5",
+    "jquery": "^3.6.4",
+    "masonry-layout": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.71.7",
+    "react-native-web": "^0.19.4",
+    "react-player": "^2.12.0",
+    "react-responsive-masonry": "^2.1.7",
+    "react-router-dom": "^6.11.2",
+    "react-router-native": "^6.10.0",
+    "react-scripts": "^5.0.1",
+    "react-three-fiber": "^6.0.13",
+    "three": "^0.152.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

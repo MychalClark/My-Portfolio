@@ -1,0 +1,61 @@
+.fullstackProjects {
+  background-image: url(../../public/images/blueprint.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
+  /* border-style: dotted;
+  border-color: aqua; */
+  height: auto;
+}
+
+.projectsTitle {
+  text-shadow: 2px -2px rgba(187, 141, 22, 0.61),
+    5px -5px rgba(147, 146, 75, 0.47), 2px -2px rgba(187, 141, 22, 0.61),
+    4px -4px rgba(103, 246, 174, 0.3);
+  margin-bottom: 0px;
+  padding-top: 2%;
+}
+.projectGrid {
+  width: 90%;
+  margin: auto;
+}
+
+.projectSpan {
+  text-shadow: 2px -2px rgba(187, 141, 22, 0.61),
+    5px -5px rgba(147, 146, 75, 0.47), 2px -2px rgba(187, 141, 22, 0.61),
+    4px -4px rgba(103, 246, 174, 0.3);
+}
+
+.projectCard {
+  box-shadow: 0px 0px 12px rgba(187, 141, 22, 0.61);
+  position: relative;
+  background-color: rgb(231, 222, 181);
+  height: auto;
+}
+
+.projectCard > img {
+  width: 100%;
+  height: 150px;
+}
+
+.card-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+
+  text-overflow: ellipsis;
+}
+
+.card-body {
+  padding: 5%;
+}
+
+.projectImage {
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3 ease;
+}
+.projectImage:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px 5px rgba(255, 213, 0, 0.5);
+}

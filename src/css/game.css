@@ -1,0 +1,22 @@
+.gameContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.sectionContainer {
+  position: relative;
+}
+
+.gameContainerHalf {
+  width: 50%;
+  height: 100vh;
+}
+
+.container-effect {
+  transition: all 1.6s ease;
+}
+
+.noPadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

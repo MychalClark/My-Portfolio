@@ -1,0 +1,68 @@
+.dialogueDiv {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 30;
+}
+
+.dialogue {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border: 13px outset #f99409;
+  border-radius: 50px;
+}
+
+.cowmanPicture {
+  background-image: url(../../public/images/cowboyMan.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% center; /* Adjust the percentage value */
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+.sheriffPicture {
+  background-image: url(../../public/images/cowboySheriff.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% center; /* Adjust the percentage value */
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.cowgirlPicture {
+  background-image: url(../../public/images/cowboyWoman.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% center; /* Adjust the percentage value */
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+.dialogueButtons {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .dialogueDiv {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .dialogueDiv {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dialogueDiv {
+    font-size: 10px;
+  }
+}

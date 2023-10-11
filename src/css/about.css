@@ -1,0 +1,61 @@
+.about {
+  background-image: url(../../public/images/sapwood.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  width: 50%;
+  height: 100vh;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+.wantedPoster {
+  width: 100%;
+  height: 75vh;
+}
+
+.wantedPoster > img {
+  height: 100%;
+  width: 100%;
+}
+
+.aboutHim {
+  background-image: url(../../public/images/oldpaper.jpg);
+  margin-top: 5%;
+  background-size: cover;
+  background-repeat: repeat-y;
+  width: 90%;
+  -webkit-box-shadow: 12px 10px 48px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 12px 10px 48px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 12px 10px 48px 0px rgba(0, 0, 0, 0.75);
+  border: 11px inset #e1a838;
+}
+
+.aboutTitle {
+  font-size: 275%;
+}
+
+.aboutPara {
+  font-size: 130%;
+}
+
+.backButton {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.ants {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
