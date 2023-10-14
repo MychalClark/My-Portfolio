@@ -70,7 +70,7 @@ function FullstackProjects() {
   };
   return (
     <div
-      className="fullstackProjects container-fluid overlayTopic"
+      className="fullstackProjects overlayTopic"
       style={{
         zIndex: selectedProject ? 1004 : 999,
         height: selectedProject ? 0 : "auto",

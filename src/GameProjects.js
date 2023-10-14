@@ -21,7 +21,7 @@ function GameProjects() {
     link: null,
   };
   const inline = {
-    img: "/images/inlineImg.jpg",
+    img: "/images/inlineImg.png",
     title: "Inline Game",
     media: ["/videos/inlineVideo.mp4"],
     description: ` A creation that was heavily inspired by the EA Skate franchise.
