@@ -86,15 +86,6 @@ function OutsideGame({
   return (
     <div className="gameBackground d-flex justify-content-center align-items-center">
       <div className="gameContainer ">
-        <div
-          style={{ zIndex: 1, position: "absolute" }}
-          className="loadingScreen2"
-        >
-          <div className="loadingBubble boldFont">
-            Giddy up, partner! We're wranglin' up some mighty fine content for
-            ya!
-          </div>
-        </div>
         <Canvas
           style={{ zIndex: 10 }}
           shadows
@@ -187,7 +178,7 @@ function OutsideGame({
           isOutsideDialogueFinished === false && (
             <div className="dialogueDiv row">
               <div className="cowmanPicture col-3"></div>
-              <div className="dialogue text-white calmFont justify-content-center text-center col-6">
+              <div className="dialogue text-white cowboyFont justify-content-center text-center col-6">
                 {dialogueTurn === 0 && (
                   <div>
                     Well, howdy there, partner! Welcome to the town of Wildfire

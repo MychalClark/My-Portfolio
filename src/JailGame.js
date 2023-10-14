@@ -77,15 +77,6 @@ function JailGame({
             : "gameContainer"
         }
       >
-        <div
-          style={{ zIndex: 1, position: "absolute" }}
-          className="loadingScreen3"
-        >
-          <div className="loadingBubble boldFont">
-            Yeehaw! This page's loadin' like a cowboy on a quick draw!
-          </div>
-        </div>
-
         <Canvas
           style={{ zIndex: 20 }}
           shadows
@@ -123,7 +114,7 @@ function JailGame({
               {(dialogueTurn === 1 || dialogueTurn === 3) && (
                 <div className="sheriffPicture col-3"></div>
               )}
-              <div className="dialogue text-white calmFont justify-content-center text-center col-6">
+              <div className="dialogue text-white cowboyFont justify-content-center text-center col-6">
                 {dialogueTurn === 0 && (
                   <div>
                     Welcome to the sheriff's building. This here is where

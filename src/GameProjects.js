@@ -69,51 +69,53 @@ function GameProjects() {
   };
   return (
     <div
-      className="fullstackProjects container-fluid overlayTopic"
+      className="fullstackProjects overlayTopic"
       style={{
         zIndex: selectedProject ? 1004 : 999,
         height: selectedProject ? 0 : "auto",
       }}
     >
-      {/* Title */}
-      <h2 className="projectsTitle text-center text-white cowboyFont mt-3">
-        GAME DESIGN AND 3D ART
-      </h2>
-      <div className="span projectSpan text-center mb-3 cowboyFont ">
-        Indie game development and artwork
-      </div>
-      {/* project grid start */}
-      <div className="projectGrid ">
-        {!selectedProject && (
-          <ResponsiveMasonry
-            columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-          >
-            <Masonry gutter="10px">
-              {projects.map((project, i) => (
-                <img
-                  key={i}
-                  className="projectImage"
-                  alt="Unable to Load Media"
-                  src={project.img}
-                  onClick={() => {
-                    handleImageClick(project);
-                    setIsProjectDescriptionOpen(true);
-                    scrollToTop();
-                  }}
-                ></img>
-              ))}
-            </Masonry>
-          </ResponsiveMasonry>
-        )}
-        {selectedProject && (
-          <ProjectDescription
-            project={selectedProject}
-            onClose={() => {
-              setIsProjectDescriptionOpen(false);
-              setSelectedProject(null);
-            }}
-          />
-        )}
+      <div className="projectBlur">
+        {/* Title */}
+        <h2 className="projectsTitle text-center text-white cowboyFont mt-3">
+          GAME DESIGN AND 3D ART
+        </h2>
+        <div className="span projectSpan text-center mb-3 cowboyFont ">
+          Indie game development and artwork
+        </div>
+        {/* project grid start */}
+        <div className="projectGrid ">
+          {!selectedProject && (
+            <ResponsiveMasonry
+              columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
+            >
+              <Masonry gutter="10px">
+                {projects.map((project, i) => (
+                  <img
+                    key={i}
+                    className="projectImage"
+                    alt="Unable to Load Media"
+                    src={project.img}
+                    onClick={() => {
+                      handleImageClick(project);
+                      setIsProjectDescriptionOpen(true);
+                      scrollToTop();
+                    }}
+                  ></img>
+                ))}
+              </Masonry>
+            </ResponsiveMasonry>
+          )}
+          {selectedProject && (
+            <ProjectDescription
+              project={selectedProject}
+              onClose={() => {
+                setIsProjectDescriptionOpen(false);
+                setSelectedProject(null);
+              }}
+            />
+          )}
+        </div>
       </div>
     </div>
   );

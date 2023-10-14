@@ -5,7 +5,7 @@ import { useState } from "react";
 import "./css/app.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import LoadingScreen from "./LoadingScreen";
 import OutsideGame from "./OutsideGame";
 import BankGame from "./BankGame";
 import MusicAudio from "./MusicAudio";
@@ -29,6 +29,7 @@ function App() {
     <div>
       <View>
         <GetScreenOrientation />
+        {isCanvasReady === false && <LoadingScreen />}
         <Navbar
           onPageChange={handlePageChange}
           currentPage={currentPage}

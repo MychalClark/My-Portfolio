@@ -74,15 +74,6 @@ function BankGame({
   return (
     <div className="BankGame sectionContainer">
       <div className=" gameContainer ">
-        <div
-          style={{ zIndex: 1, position: "absolute" }}
-          className="loadingScreen"
-        >
-          <div className="loadingBubble boldFont">
-            Yeehaw! Just hold yer horses, cowboy! We're fixin' to load things up
-            real nice for ya!
-          </div>
-        </div>
         <Canvas
           style={{ zIndex: 20 }}
           shadows
@@ -126,7 +117,7 @@ function BankGame({
             <div className="dialogueDiv row">
               <div className="cowgirlPicture col-3"></div>
 
-              <div className="dialogue text-white calmFont justify-content-center text-center col-6">
+              <div className="dialogue text-white cowboyFont justify-content-center text-center col-6">
                 {dialogueTurn === 0 && (
                   <div>
                     Well, now, hold on just a minute there, stranger. You ain't
