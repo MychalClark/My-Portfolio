@@ -2,12 +2,13 @@
   background-image: url(../../public/images/wildwestTown.jpg);
   background-repeat: repeat-y;
   background-size: cover;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .projectBlur {
   backdrop-filter: blur(8px) saturate(210%) brightness(80%);
-  width: 100%;
+  width: inherit;
+  min-height: 100vh;
   height: 100%;
 }
 

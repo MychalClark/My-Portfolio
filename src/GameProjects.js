@@ -72,7 +72,7 @@ function GameProjects() {
       className="fullstackProjects overlayTopic"
       style={{
         zIndex: selectedProject ? 1004 : 999,
-        height: selectedProject ? 0 : "auto",
+        height: selectedProject ? 0 : "",
       }}
     >
       <div className="projectBlur">
